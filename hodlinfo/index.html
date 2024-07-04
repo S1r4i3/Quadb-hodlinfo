@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hodlinfo</title>
+    <link rel="stylesheet" href="index.css" />
+    <script  src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">HODLINFO</div>
+        <div class="actions">
+          <button class="connect">Connect Telegram</button>
+        </div>
+      </header>
+        
+  <main>
+    <div class="stats">
+          <div class="stat">
+              <div class="percent" id="5mins">0.44 %</div>
+              <div class="label">5 Mins</div>
+          </div>
+        <div class="stat">
+            <div class="percent" id="1hour">1.03 %</div>
+            <div class="label">1 Hour</div>
+        </div>
+        <div class="best-price  ">
+            <div class="label ">Best Price to Trade</div>
+            <div class="price" id="best-price">₹ 53,54,059</div>
+            <div class="info label">Average BTC/INR net price including commission</div>
+        </div>  
+        <div class="stat">
+            <div class="percent" id="1day">8.46 %</div>
+            <div class="label">1 Day</div>
+        </div>
+        <div class="stat">
+            <div class="percent" id="7days">13 %</div>
+            <div class="label">7 Days</div>
+        </div>
+    </div>
+</main>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Platform</th>
+              <th>Last Traded Price</th>
+              <th>Buy / Sell Price</th>
+              <th>Volume</th>
+              <th>Base Unit</th>
+            </tr>
+          </thead>
+          <tbody id="tickers">
+            <!-- Data will be inserted here dynamically -->
+          </tbody>
+        </table>
+      </main>
+    </div>
+    
+  </body>
+</html>

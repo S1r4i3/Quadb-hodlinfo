@@ -1,0 +1,112 @@
+body {
+  background-color: #1d1f27;
+  color: #cfd8dc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00acc1;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 40px 0;
+}
+
+.stat {
+  text-align: center;
+}
+
+.percent {
+  font-size: 1.5rem;
+  color: #00acc1;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: #777575;
+  padding: 10px 0 10px 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.connect {
+  background-color: #00acc1;
+  border: none;
+  padding: 10px 20px;
+  color: #1d1f27;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.connect:hover {
+  background-color: #008ba3;
+}
+
+.best-price {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.best-price .price {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.best-price .info {
+  font-size: 0.875rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+thead {
+  background-color: #263238;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #2f3a42;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #37474f;
+}
+
+.positive {
+  color: #4caf50;
+}
+
+.negative {
+  color: #f44336;
+}
